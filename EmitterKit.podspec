@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'EmitterKit'
-  s.version = '5.2.3'
+  s.version = '5.2.4'
   s.license = 'MIT'
   s.summary = 'Type-safe event handling for Swift'
   s.homepage = 'https://github.com/aleclarson/emitter-kit'
@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/aleclarson/emitter-kit.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '11.2'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
